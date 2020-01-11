@@ -1,0 +1,9 @@
+Output for part 1:
+1 x.n    10 | x.lo 0.0067 | x.hi 0.2394 | y.lo 0.0029 | y.hi 0.0496
+2 x.n    6 | x.lo 0.4001 | x.hi 0.6472 | y.lo 0.4026 | y.hi 0.8121
+3 x.n    9 | x.lo 0.6015 | x.hi 0.847 | y.lo 0.8333 | y.hi 0.8993
+
+Output for part 2:
+1 x.n	50 | x.lo 0.0067 | x.hi 0.2394 | y.mode a | y.ent 0.0
+2 x.n	25 | x.lo 0.4001 | x.hi 0.4418 | y.mode b | y.ent 0.0
+3 x.n	50 | x.lo 0.6015 | x.hi 0.847 | y.mode c | y.ent 0.0

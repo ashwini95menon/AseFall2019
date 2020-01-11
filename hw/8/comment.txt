@@ -1,0 +1,3 @@
+It is observed that the trees generated in this homework have clear partitioning. They have limited depth and could be used to distinguish between the given data(auto.csv).
+
+Hence we can say that the trees generated are good enough. 

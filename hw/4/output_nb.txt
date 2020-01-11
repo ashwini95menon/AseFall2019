@@ -1,0 +1,15 @@
+Anjalis-MacBook-Pro:4 anjali$ python3 main_nb.py 
+output for weathernon.csv
+
+   db  |    rx  |   num  |     a  |     b  |     c  |     d  |  acc  |  pre  |   pd  |   pf  |    f  |    g  | class
+ ----  |  ----  |  ----  |  ----  |  ----  |  ----  |  ----  | ----  | ----  | ----  | ----  | ----  | ----  | ----  | ----
+ data  |    rx  |    10  |     0  |     3  |     3  |     4  |  0.40  |  0.57  |  0.57  |  1.00  |  0.57  |  0.00  |  yes
+ data  |    rx  |    10  |     4  |     3  |     3  |     0  |  0.40  |  0.00  |  0.00  |  0.43  |  0.00  |  0.00  |   no
+
+
+output for diabetes.csv
+
+   db  |    rx  |   num  |     a  |     b  |     c  |     d  |  acc  |  pre  |   pd  |   pf  |    f  |    g  | class
+ ----  |  ----  |  ----  |  ----  |  ----  |  ----  |  ----  | ----  | ----  | ----  | ----  | ----  | ----  | ----  | ----
+ data  |    rx  |   749  |   402  |   107  |    91  |   149  |  0.74  |  0.62  |  0.58  |  0.18  |  0.60  |  0.68  | tested_positive
+ data  |    rx  |   749  |   149  |    91  |   107  |   402  |  0.74  |  0.79  |  0.82  |  0.42  |  0.80  |  0.68  | tested_negative

@@ -1,0 +1,32 @@
+"same  score" results table
+
+xomo10000.csv file
+
+alpha|        all           	  |       incremental
+     |baseline|no of Probes AFTER |same score|Probes AFTER 
+ 0.5 |	0.095 |     2000      	  |  0.025   |  20
+ 0.6 |  0.1095|     2000          |  0.05    |  20
+ 0.7 |  0.114 |     2000          |  0.05    |  31
+ 0.8 |  0.1153|     2000          |  0.058   |  52
+ 0.9 |  0.1085|     2000          |  0.025   |  50
+
+pom310000.csv file
+
+alpha|        all                 |       incremental
+     |baseline|no of Probes AFTER |same score|Probes AFTER 
+ 0.5 |0.223   |     2000          | 0.05     | 20
+ 0.6 |0.2645  |     2000          | 0.1698   | 53
+ 0.7 |0.228   |     2000          | 0.1538   | 26
+ 0.8 |0.2675  |     2000          | 0.1705   | 60
+ 0.9 |0.259   |     2000          | 0.19     | 72
+
+We performed for both xomo10000 and pom310000 files all and incremental and calculated and tabulated the baseline and same scores.
+We found that for finding probes for AFTER for the first all Tree all the probes were found(20 iterations*100 probes=2000) as the whole dataset was used.
+
+Meanwhile for the incremental trees this wasnt the case. As we are performing incremental based on anomaly its not sure that all probes will be present,
+Its based on the dribbling of rows , groupping of clusters (random() shuffling) which may or may not be anomolous w.r.t 500 initial rows
+For incremental tree the scores were based on the probes AFTER which for instance for alpha 0.5 for xomofile came to be 20 outof 2000.
+   
+We see that score mostly increases with aplha. We can see that number of probes seem to be mostly increasing as alpha increased which in turn affects 
+the score of incremental tree.
+We also found that the incremental score was less than baseline and many times less than half or half the value of baseline.

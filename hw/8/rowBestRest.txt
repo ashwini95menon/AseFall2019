@@ -1,0 +1,14 @@
+Anjalis-MBP:8 anjali$ python3 main.py 
+['cylinders', 'displacement', 'horsepower', '<weight', '>acceleration", 'model', 'origin', '>mpg']
+[4, 97, 52, 2130, 24.6, 82, 2, 44] 	 best
+[4, 90, 48, 2085, 21.7, 80, 2, 44.3] 	 best
+[4, 90, 48, 1985, 21.5, 78, 2, 43.1] 	 best
+[4, 85, 75, 1835, 17.3, 80, 2, 40.9] 	 best
+.
+.
+.
+.
+[8, 351, 153, 4154, 13.5, 71, 1, 14] 	 worst
+[8, 350, 145, 3988, 13, 73, 1, 13] 	 worst
+[8, 360, 170, 4654, 13, 73, 1, 13] 	 worst
+[8, 400, 175, 5140, 12, 71, 1, 13] 	 worst

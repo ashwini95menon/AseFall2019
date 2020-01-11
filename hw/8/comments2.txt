@@ -1,0 +1,7 @@
+In the section 2.1 Suvodeep talks about different areas of SE project which could benefit if some stable general conclusions were made about best practices in SE. 
+
+In section 2.2 he talks about how one model cannot cover all the project and tools. Context is very important. He also recommends building the models for the group of softwares instead of individual softwares mainly because if we form small small communities of the software we are very much likely to find general patterns in them and that could save us some training and testing time.
+
+I think generalization is just as important as local reasoning. If we do just the generaliztion, the model might not learn the minute patterns in the data and that could ne detrimental. Also just doing local reasoning is also not an option because in the cluster of thousands of SE projects, doing local reasoning is just not feasible.
+
+If we consider this homework which a generalization with local reasoning, it may not be perfect but it is one of doing things right. Do local reasoning on a very small community but gather the communities together to do generalization.
